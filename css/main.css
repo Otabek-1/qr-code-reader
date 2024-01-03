@@ -1,0 +1,66 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Light-Grey: #D5E1EF;
+    --outfit: "Outfit";
+}
+
+body {
+    display: flex;
+    padding: 152px 0px 151px 0px;
+    justify-content: center;
+    align-items: center;
+    background: var(--Light-Grey);
+}
+
+.box {
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    row-gap: 16px;
+}
+
+.box-code {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    background: #2C7DFA;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-title {
+    color: #1F314F;
+    text-align: center;
+    font-family: var(--outfit);
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 288px;
+    width: 100%;
+}
+
+.box-desc {
+    max-width: 256px;
+    width: 100%;
+    color: #7D889E;
+    text-align: center;
+    font-family: var(--outfit);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.188px;
+}
